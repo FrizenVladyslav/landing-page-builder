@@ -1,0 +1,20 @@
+.landing {
+  :global .DraftEditor-root {
+    padding: 5px 5px 2px;
+    border: 1px dashed aqua;
+  }
+
+  :global .public-DraftEditor-content {
+    > div {
+      > div {
+        margin-bottom: 5px;
+      }
+    }
+  }
+
+  :global .anticon {
+    svg {
+      margin-top: -7px !important;
+    }
+  }
+}

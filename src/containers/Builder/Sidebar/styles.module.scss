@@ -1,0 +1,12 @@
+.sidebar {
+  padding: 15px 0;
+  :global .ant-drawer {
+    &-body {
+      padding-left: 10px;
+    }
+  }
+}
+
+.title {
+  text-align: center;
+}

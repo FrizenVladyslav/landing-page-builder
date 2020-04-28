@@ -1,0 +1,32 @@
+@import './variables.scss';
+@import '~antd/dist/antd.css';
+
+html,
+body,
+#root {
+  width: 100%;
+  min-height: 100vh;
+  overflow-x: hidden;
+  font-family: $defaultFont;
+}
+body {
+  @media (max-width: 1200px) {
+    zoom: 85%
+  }
+}
+.modal-backdrop {
+  @media (max-width: 1200px) {
+    zoom: 100
+  }
+}
+
+a {
+  color: $primaryColor;
+  &:hover { text-decoration: none }
+}
+
+.anticon {
+  svg {
+    margin-top: -7px !important;
+  }
+}
