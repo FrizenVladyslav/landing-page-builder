@@ -4,6 +4,7 @@ import App from './containers/App'
 import * as serviceWorker from './serviceWorker'
 
 import 'normalize.css'
+import 'medium-draft/lib/index.css'
 import 'sources/styles/styles.scss'
 
 ReactDOM.render(

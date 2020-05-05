@@ -7,7 +7,7 @@ import styles from './styles.module.scss'
 
 interface IProps extends FormProps {
   items: string[]
-  changeItems: (prop: string, value: any) => void
+  changeItems: (prop: string, value: object) => void
 }
 
 const ListSettings: React.FC<IProps> = ({ items, changeItems, ...rest }) => {

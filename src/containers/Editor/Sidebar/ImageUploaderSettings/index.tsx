@@ -2,7 +2,7 @@ import React from 'react'
 import { Slider, Typography } from 'antd'
 
 interface IProps {
-  changeImageSize: (prop: string, value: any) => void
+  changeImageSize: (prop: string, value: object) => void
 }
 
 const ImageUploaderSettings: React.FC<IProps> = ({ changeImageSize }) => {

@@ -17,8 +17,9 @@ export interface IRow {
 }
 
 export interface IBlock {
-  rows: IRow[]
-  props: React.DetailedHTMLProps<React.HTMLAttributes<HTMLDivElement>, HTMLDivElement>
+  selector: string
+  type: 'image-uploader' | 'text' | 'button' | 'list' | 'cards'
+  props?: object
 }
 
 export interface ISelectedElement extends IElement {
