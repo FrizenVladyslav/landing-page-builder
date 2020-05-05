@@ -17,7 +17,7 @@ interface IButton {
 const buttons: IButton[] = [
   {
     text: 'Reset',
-    props: { type: 'danger', icon: <ClearOutlined /> },
+    props: { icon: <ClearOutlined /> },
   },
   {
     text: 'Page Settings',

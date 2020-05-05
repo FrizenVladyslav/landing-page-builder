@@ -16,6 +16,7 @@
     "history": "^4.10.1",
     "html-to-draftjs": "^1.5.0",
     "lodash": "^4.17.15",
+    "medium-draft": "^0.5.18",
     "mobx": "^5.15.4",
     "mobx-react": "^6.2.2",
     "mobx-remotedev": "^0.3.6",
